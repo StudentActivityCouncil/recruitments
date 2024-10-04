@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; /* Light background color */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#000080
+  ; /* Dark background color for the navbar */
+  color: rgb(0, 0, 0);
+  padding: 50px 90px;
+  position: relative;
+  
+}
+
+.logo1 {
+  position: absolute;
+  left: 20px;
+}
+
+.logo1 img {
+  height: 125px; /* Increased logo size */
+}
+.logo2 img {
+  height: 115px; /* Increased logo size */
+}
+.logo2 {
+  position: absolute;
+  right: 20px;
+}
+.nav-text {
+  font-size: 24px; /* Increased font size for better visibility */
+  color: #ffffff84; /* White color for the text */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  background-color: #FFFFFF; /* White background for cards */
+  border: 1px solid #DDD; /* Light border */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card h3 {
+  color: #002147; /* Dark blue color for card titles */
+  margin: 10px 0;
+}
+
+.card p {
+  color: #4A4A4A; /* Gray color for card descriptions */
+  font-size: 14px;
+}
+ul{
+  padding-right: 0px;
+  padding-left: 10px;
+}
